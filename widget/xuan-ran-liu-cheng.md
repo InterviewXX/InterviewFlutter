@@ -38,6 +38,17 @@ Flutter 通过控件树（Widget 树）中的每个控件（Widget）创建不�
 
 Flutter 通过引入 Widget、Element 与 RenderObject 这三个概念，把原本从视图数据到视图渲染的复杂构建过程拆分得更简单、直接，在易于集中治理的同时，保证了较高的渲染效率。
 
+```text
+abstract class RenderObject extends AbstractNode with DiagnosticableTreeMixin implements HitTestTarget {
+  ...
+  void layout(Constraints constraints, { bool parentUsesSize = false }) {...}
+  
+  void paint(PaintingContext context, Offset offset) { }
+}
+```
+
+布局和绘制完成后，接下来的事情就交给 Skia 了。在 VSync 信号同步时直接从渲染树合成 Bitmap，然后提交给 GPU。
+
 ## 相关链接
 
 [Flutter核心技术与实战：09 \| Widget，构建Flutter界面的基石](https://time.geekbang.org/column/article/108522)
