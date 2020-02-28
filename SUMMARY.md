@@ -7,6 +7,7 @@
 
 ## Widget
 
+* [渲染流程](widget/xuan-ran-liu-cheng.md)
 * [生命周期](widget/sheng-ming-zhou-qi/README.md)
   * [App](widget/sheng-ming-zhou-qi/app.md)
   * [State\(ful Widget\)](widget/sheng-ming-zhou-qi/state.md)
