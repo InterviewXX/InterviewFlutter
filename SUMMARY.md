@@ -11,3 +11,7 @@
   * [App](widget/sheng-ming-zhou-qi/app.md)
   * [State\(ful Widget\)](widget/sheng-ming-zhou-qi/state.md)
 
+## 系统原理
+
+* [系统架构](xi-tong-yuan-li/xi-tong-jia-gou.md)
+
