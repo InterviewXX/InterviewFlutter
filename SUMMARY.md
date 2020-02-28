@@ -7,5 +7,6 @@
 
 ## Widget
 
-* [生命周期](widget/sheng-ming-zhou-qi.md)
+* [生命周期](widget/sheng-ming-zhou-qi/README.md)
+  * [State](widget/sheng-ming-zhou-qi/state.md)
 
