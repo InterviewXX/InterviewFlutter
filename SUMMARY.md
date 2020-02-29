@@ -14,5 +14,6 @@
 
 ## 系统原理
 
+* [MethodChannel](xi-tong-yuan-li/methodchannel.md)
 * [系统架构](xi-tong-yuan-li/xi-tong-jia-gou.md)
 
